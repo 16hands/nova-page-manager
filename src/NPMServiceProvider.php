@@ -6,8 +6,8 @@ use Laravel\Nova\Nova;
 use Laravel\Nova\Panel;
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\ServiceProvider;
-use Outl1ne\PageManager\Commands\NPMTemplateCommand;
-use Outl1ne\NovaTranslationsLoader\LoadsNovaTranslations;
+use OptimistDigital\PageManager\Commands\NPMTemplateCommand;
+use OptimistDigital\NovaTranslationsLoader\LoadsNovaTranslations;
 
 class NPMServiceProvider extends ServiceProvider
 {
